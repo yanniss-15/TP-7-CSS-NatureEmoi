@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Abril fatface';
+}
+
+header {
+    background-image: url("bkg.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+}
+/* HEADER */
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+/* Barre de navigation avec logo + "Accueil", "Nos meilleures ventes", "Nos plantes". */
+
+nav h2 {
+    padding: 2rem;
+}
+/* Textes de la nav */
+
+
+#logo {
+    height: 6em;
+}
+/* Logo de la nav */
+
+
+.container {
+    font-size: 4em;
+    padding: 2em;
+}
+.container h1 {
+    width: 50%;
+}
+/*Texte dans le header "Nature Emoi, meilleure que le chocolat".*/
+
+.infos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 4em;
+}
+/* Texte sous le header avec icons */
+
+.infos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div p {
+    width: 60%;
+    text-align: center;
+    font-weight: bold;
+    padding: 5%;
+    font-size: 2em;
+}
+
+div .icons {
+    color: #ADD981;
+    font-size: 3em;
+}
+/* Icons */
+
+.MeilleuresVentes h1 {
+    font-size: 4em;
+    padding: 1em;
+}
+/* Titres Meilleures ventes*/
+
+.nmv {
+    display: flex;
+    height: 100%;
+}
+
+#img1 {
+    background-image: url("img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+#img2 {
+    background-image: url("img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+#img3 {
+    background-image: url("img3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+#img4 {
+    background-image: url("img4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+.contentImg {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFFDF;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.esp {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #ADD981;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-areas:
+    "image1 image2"
+    "image1 image3";
+    gap: 20px;
+    padding: 20px;
+    height: 800px;
+}
+
+#plante1 {
+    background-image: url("1.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    grid-area: image1;
+}
+
+#plante2 {
+    background-image: url("2.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    grid-area: image2;
+}
+
+#plante3 {
+    background-image: url("3.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    grid-area: image3;
+}
+
+.NosPlantes h1 {
+    font-size: 4em;
+    padding: 1em;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-areas: 
+    "image4 image5 image5 image6"
+    "image4 image5 image5 image6"
+    "image4 image5 image5 image6";
+    gap: 20px;
+    padding: 20px;
+    height: 800px;
+}
+
+#plante4 {
+    background-image: url("4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: image4;
+}
+
+#plante5 {
+    background-image: url("5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: image5;
+}
+
+#plante6 {
+    background-image: url("6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: image6;
+}
+
+footer {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
